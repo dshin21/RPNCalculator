@@ -16,6 +16,6 @@ public:
 
 inline addition_operation::~addition_operation() {};
 
-int addition_operation::perform(int first_input, int sec_input) {
-    return first_input + sec_input;
+int addition_operation::perform(int first, int second) {
+    return first + second;
 }

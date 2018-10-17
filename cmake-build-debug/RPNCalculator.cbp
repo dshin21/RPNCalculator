@@ -90,10 +90,22 @@
 		<Unit filename="D:/googleDrive/DBOX/BCIT/COMP_3712/Labs/W7/RPNCalculator/addition_operation.hpp">
 			<Option target="RPNCalculator"/>
 		</Unit>
+		<Unit filename="D:/googleDrive/DBOX/BCIT/COMP_3712/Labs/W7/RPNCalculator/division_operation.hpp">
+			<Option target="RPNCalculator"/>
+		</Unit>
 		<Unit filename="D:/googleDrive/DBOX/BCIT/COMP_3712/Labs/W7/RPNCalculator/main.cpp">
 			<Option target="RPNCalculator"/>
 		</Unit>
+		<Unit filename="D:/googleDrive/DBOX/BCIT/COMP_3712/Labs/W7/RPNCalculator/multiplication_operation.hpp">
+			<Option target="RPNCalculator"/>
+		</Unit>
 		<Unit filename="D:/googleDrive/DBOX/BCIT/COMP_3712/Labs/W7/RPNCalculator/operation.hpp">
+			<Option target="RPNCalculator"/>
+		</Unit>
+		<Unit filename="D:/googleDrive/DBOX/BCIT/COMP_3712/Labs/W7/RPNCalculator/rpn_calculator.hpp">
+			<Option target="RPNCalculator"/>
+		</Unit>
+		<Unit filename="D:/googleDrive/DBOX/BCIT/COMP_3712/Labs/W7/RPNCalculator/subtraction_operation.hpp">
 			<Option target="RPNCalculator"/>
 		</Unit>
 		<Unit filename="D:/googleDrive/DBOX/BCIT/COMP_3712/Labs/W7/RPNCalculator/CMakeLists.txt">
