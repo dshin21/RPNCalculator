@@ -3,4 +3,4 @@ project(RPNCalculator)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(RPNCalculator main.cpp)
+add_executable(RPNCalculator main.cpp operation.hpp abstract_operation.hpp addition_operation.hpp)
