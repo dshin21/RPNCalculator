@@ -1,8 +1,17 @@
-//
-// Created by danie on 2018-10-17.
-//
+#pragma once
 
-#ifndef RPNCALCULATOR_RPN_CALCULATOR_HPP
-#define RPNCALCULATOR_RPN_CALCULATOR_HPP
+#include <stack>
 
-#endif //RPNCALCULATOR_RPN_CALCULATOR_HPP
+using namespace std;
+
+class rpn_calculator {
+private:
+    int result;
+
+    stack<int> stack;
+
+
+
+
+
+};
