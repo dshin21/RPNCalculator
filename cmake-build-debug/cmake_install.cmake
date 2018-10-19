@@ -1,4 +1,4 @@
-# Install script for directory: D:/googleDrive/DBOX/BCIT/COMP_3712/Labs/W7/RPNCalculator
+# Install script for directory: C:/Users/Daniel Shin/Downloads/RPNCalculator
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/googleDrive/DBOX/BCIT/COMP_3712/Labs/W7/RPNCalculator/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Daniel Shin/Downloads/RPNCalculator/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

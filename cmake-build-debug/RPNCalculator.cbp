@@ -8,25 +8,24 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/googleDrive/DBOX/BCIT/COMP_3712/Labs/W7/RPNCalculator/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Daniel Shin/Downloads/RPNCalculator/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f D:\googleDrive\DBOX\BCIT\COMP_3712\Labs\W7\RPNCalculator\cmake-build-debug\Makefile VERBOSE=1 all"/>
-					<CompileFile command="nmake /NOLOGO /f D:\googleDrive\DBOX\BCIT\COMP_3712\Labs\W7\RPNCalculator\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f D:\googleDrive\DBOX\BCIT\COMP_3712\Labs\W7\RPNCalculator\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f D:\googleDrive\DBOX\BCIT\COMP_3712\Labs\W7\RPNCalculator\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Daniel Shin\Downloads\RPNCalculator\cmake-build-debug\Makefile&quot; VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Daniel Shin\Downloads\RPNCalculator\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Daniel Shin\Downloads\RPNCalculator\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Daniel Shin\Downloads\RPNCalculator\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="RPNCalculator">
-				<Option output="D:/googleDrive/DBOX/BCIT/COMP_3712/Labs/W7/RPNCalculator/cmake-build-debug/RPNCalculator.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/googleDrive/DBOX/BCIT/COMP_3712/Labs/W7/RPNCalculator/cmake-build-debug"/>
+				<Option output="C:/Users/Daniel Shin/Downloads/RPNCalculator/cmake-build-debug/RPNCalculator.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Daniel Shin/Downloads/RPNCalculator/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.15.26726\ATLMFC\include"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.15.26726\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\ucrt"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\shared"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\um"/>
@@ -34,22 +33,21 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f D:\googleDrive\DBOX\BCIT\COMP_3712\Labs\W7\RPNCalculator\cmake-build-debug\Makefile VERBOSE=1 RPNCalculator"/>
-					<CompileFile command="nmake /NOLOGO /f D:\googleDrive\DBOX\BCIT\COMP_3712\Labs\W7\RPNCalculator\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f D:\googleDrive\DBOX\BCIT\COMP_3712\Labs\W7\RPNCalculator\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f D:\googleDrive\DBOX\BCIT\COMP_3712\Labs\W7\RPNCalculator\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Daniel Shin\Downloads\RPNCalculator\cmake-build-debug\Makefile&quot; VERBOSE=1 RPNCalculator"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Daniel Shin\Downloads\RPNCalculator\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Daniel Shin\Downloads\RPNCalculator\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Daniel Shin\Downloads\RPNCalculator\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="RPNCalculator/fast">
-				<Option output="D:/googleDrive/DBOX/BCIT/COMP_3712/Labs/W7/RPNCalculator/cmake-build-debug/RPNCalculator.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/googleDrive/DBOX/BCIT/COMP_3712/Labs/W7/RPNCalculator/cmake-build-debug"/>
+				<Option output="C:/Users/Daniel Shin/Downloads/RPNCalculator/cmake-build-debug/RPNCalculator.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Daniel Shin/Downloads/RPNCalculator/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.15.26726\ATLMFC\include"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.15.26726\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\ucrt"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\shared"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\um"/>
@@ -57,58 +55,58 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f D:\googleDrive\DBOX\BCIT\COMP_3712\Labs\W7\RPNCalculator\cmake-build-debug\Makefile VERBOSE=1 RPNCalculator/fast"/>
-					<CompileFile command="nmake /NOLOGO /f D:\googleDrive\DBOX\BCIT\COMP_3712\Labs\W7\RPNCalculator\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f D:\googleDrive\DBOX\BCIT\COMP_3712\Labs\W7\RPNCalculator\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f D:\googleDrive\DBOX\BCIT\COMP_3712\Labs\W7\RPNCalculator\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Daniel Shin\Downloads\RPNCalculator\cmake-build-debug\Makefile&quot; VERBOSE=1 RPNCalculator/fast"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Daniel Shin\Downloads\RPNCalculator\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Daniel Shin\Downloads\RPNCalculator\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Daniel Shin\Downloads\RPNCalculator\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="D:/googleDrive/DBOX/BCIT/COMP_3712/Labs/W7/RPNCalculator/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Daniel Shin/Downloads/RPNCalculator/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f D:\googleDrive\DBOX\BCIT\COMP_3712\Labs\W7\RPNCalculator\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
-					<CompileFile command="nmake /NOLOGO /f D:\googleDrive\DBOX\BCIT\COMP_3712\Labs\W7\RPNCalculator\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f D:\googleDrive\DBOX\BCIT\COMP_3712\Labs\W7\RPNCalculator\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f D:\googleDrive\DBOX\BCIT\COMP_3712\Labs\W7\RPNCalculator\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Daniel Shin\Downloads\RPNCalculator\cmake-build-debug\Makefile&quot; VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Daniel Shin\Downloads\RPNCalculator\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Daniel Shin\Downloads\RPNCalculator\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Daniel Shin\Downloads\RPNCalculator\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/googleDrive/DBOX/BCIT/COMP_3712/Labs/W7/RPNCalculator/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Daniel Shin/Downloads/RPNCalculator/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f D:\googleDrive\DBOX\BCIT\COMP_3712\Labs\W7\RPNCalculator\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="nmake /NOLOGO /f D:\googleDrive\DBOX\BCIT\COMP_3712\Labs\W7\RPNCalculator\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f D:\googleDrive\DBOX\BCIT\COMP_3712\Labs\W7\RPNCalculator\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f D:\googleDrive\DBOX\BCIT\COMP_3712\Labs\W7\RPNCalculator\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Daniel Shin\Downloads\RPNCalculator\cmake-build-debug\Makefile&quot; VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Daniel Shin\Downloads\RPNCalculator\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Daniel Shin\Downloads\RPNCalculator\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Daniel Shin\Downloads\RPNCalculator\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/googleDrive/DBOX/BCIT/COMP_3712/Labs/W7/RPNCalculator/abstract_operation.hpp">
+		<Unit filename="C:/Users/Daniel Shin/Downloads/RPNCalculator/abstract_operation.hpp">
 			<Option target="RPNCalculator"/>
 		</Unit>
-		<Unit filename="D:/googleDrive/DBOX/BCIT/COMP_3712/Labs/W7/RPNCalculator/addition_operation.hpp">
+		<Unit filename="C:/Users/Daniel Shin/Downloads/RPNCalculator/addition_operation.hpp">
 			<Option target="RPNCalculator"/>
 		</Unit>
-		<Unit filename="D:/googleDrive/DBOX/BCIT/COMP_3712/Labs/W7/RPNCalculator/division_operation.hpp">
+		<Unit filename="C:/Users/Daniel Shin/Downloads/RPNCalculator/division_operation.hpp">
 			<Option target="RPNCalculator"/>
 		</Unit>
-		<Unit filename="D:/googleDrive/DBOX/BCIT/COMP_3712/Labs/W7/RPNCalculator/main.cpp">
+		<Unit filename="C:/Users/Daniel Shin/Downloads/RPNCalculator/main.cpp">
 			<Option target="RPNCalculator"/>
 		</Unit>
-		<Unit filename="D:/googleDrive/DBOX/BCIT/COMP_3712/Labs/W7/RPNCalculator/multiplication_operation.hpp">
+		<Unit filename="C:/Users/Daniel Shin/Downloads/RPNCalculator/multiplication_operation.hpp">
 			<Option target="RPNCalculator"/>
 		</Unit>
-		<Unit filename="D:/googleDrive/DBOX/BCIT/COMP_3712/Labs/W7/RPNCalculator/operation.hpp">
+		<Unit filename="C:/Users/Daniel Shin/Downloads/RPNCalculator/operation.hpp">
 			<Option target="RPNCalculator"/>
 		</Unit>
-		<Unit filename="D:/googleDrive/DBOX/BCIT/COMP_3712/Labs/W7/RPNCalculator/rpn_calculator.hpp">
+		<Unit filename="C:/Users/Daniel Shin/Downloads/RPNCalculator/rpn_calculator.hpp">
 			<Option target="RPNCalculator"/>
 		</Unit>
-		<Unit filename="D:/googleDrive/DBOX/BCIT/COMP_3712/Labs/W7/RPNCalculator/subtraction_operation.hpp">
+		<Unit filename="C:/Users/Daniel Shin/Downloads/RPNCalculator/subtraction_operation.hpp">
 			<Option target="RPNCalculator"/>
 		</Unit>
-		<Unit filename="D:/googleDrive/DBOX/BCIT/COMP_3712/Labs/W7/RPNCalculator/CMakeLists.txt">
+		<Unit filename="C:/Users/Daniel Shin/Downloads/RPNCalculator/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -12,7 +12,6 @@ using namespace std;
 
 class rpn_calculator {
 private:
-    int result;
 
     stack<int> stack;
 
@@ -40,12 +39,17 @@ private:
 public:
 
     int process_formula(string formula) {
+        int result;
         string operand;
         istringstream iss(formula);
         while (iss >> operand) {
             istringstream iss2(operand);
             if (iss2 >> result) stack.push(result);
-            else perform(operation_type(operand[0]));
+            else {
+                operation *op = operation_type(operand[0]);
+                perform(op);
+                delete op;
+            }
         }
         return stack.top();
     }
